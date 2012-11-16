@@ -1,0 +1,9 @@
+<h1>Shorten it Byatches!</h1>
+
+<p>
+	<%= form_for @urlmap, :url => urls_path do |f| %>
+		<%= f.label :long_url %>:
+	  	<%= f.text_field :long_url %>
+		<%= f.submit "Shorten it Byatch" %>
+	<% end %>
+</p>
